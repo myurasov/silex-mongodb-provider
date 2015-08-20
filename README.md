@@ -19,7 +19,7 @@ Or do
 $app->register(new MongoClientProvider(), [config options]);
 ```
 
-Then `$app['mongodb.client']` service becomes available.
+Then `$app['mongodb.mongo_client']` service becomes available.
 
 ## Confuguration Options
 
