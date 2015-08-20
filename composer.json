@@ -23,7 +23,7 @@
   },
   "autoload": {
     "psr-0": {
-      "Yurasov\\Silex\\MongoDb": "src"
+      "MYurasov\\Silex\\MongoDB\\Provider": "src"
     }
   }
 }
