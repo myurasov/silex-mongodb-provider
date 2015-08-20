@@ -1,0 +1,29 @@
+{
+  "name": "myurasov/silex-mongodb-provider",
+  "type": "library",
+  "description": "MongoDB provider for Silex applications",
+  "keywords": [
+    "mongodb",
+    "mingo",
+    "silex",
+    "provider"
+  ],
+  "homepage": "https://github.com/myurasov/silex-mongodb-provider",
+  "license": "WTFPL",
+  "authors": [
+    {
+      "name": "Mikhail Yurasov",
+      "email": "me@yurasov.me"
+    }
+  ],
+  "require": {
+    "silex/silex": "~1.0",
+    "ext-mongo": "~1.4",
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "psr-0": {
+      "Yurasov\\Silex\\MongoDb": "src"
+    }
+  }
+}
